@@ -1,0 +1,18 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnsomma" Content="somma" HorizontalAlignment="Left" Margin="315,184,0,0" VerticalAlignment="Top" Click="btnsomma_Click" />
+        <TextBox x:Name="txtn1" HorizontalAlignment="Left" Margin="315,62,0,0" Text=""  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtn2" HorizontalAlignment="Left" Margin="315,150,0,0" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.49,1.705"/>
+        <Label x:Name="lblbum1" Content="Numero1" HorizontalAlignment="Left" Margin="320,21,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="lblnum2" Content="Numero2" HorizontalAlignment="Left" Margin="320,105,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="lblris" Content="" HorizontalAlignment="Left" Margin="375,243,0,0" VerticalAlignment="Top" Width="227"/>
+
+    </Grid>
+</Window>
