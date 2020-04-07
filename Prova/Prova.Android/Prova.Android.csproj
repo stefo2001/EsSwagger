@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E66FC552-3CB6-47E2-9B44-34F902D0DBD5}</ProjectGuid>
+    <ProjectGuid>{261B9C1B-270D-4BFD-A449-9A0C0C7B5236}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>AppXamarin.Droid</RootNamespace>
-    <AssemblyName>AppXamarin.Android</AssemblyName>
+    <RootNamespace>Prova.Droid</RootNamespace>
+    <AssemblyName>Prova.Android</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -94,9 +94,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppXamarin\AppXamarin.csproj">
-      <Project>{DA021DCD-CA0D-4D7A-9DEB-FEF0A730A4A0}</Project>
-      <Name>AppXamarin</Name>
+    <ProjectReference Include="..\Prova\Prova.csproj">
+      <Project>{F355A0BA-CA4A-471E-98EE-C60B824079C9}</Project>
+      <Name>Prova</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

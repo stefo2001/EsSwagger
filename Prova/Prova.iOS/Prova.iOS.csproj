@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B1103619-96C7-4571-8296-6A2015E96460}</ProjectGuid>
+    <ProjectGuid>{DFE9A59A-9051-405E-BA4B-2D4A4352F40E}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AppXamarin.iOS</RootNamespace>
+    <RootNamespace>Prova.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>AppXamarin.iOS</AssemblyName>
+    <AssemblyName>Prova.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -133,9 +133,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\AppXamarin\AppXamarin.csproj">
-      <Project>{DA021DCD-CA0D-4D7A-9DEB-FEF0A730A4A0}</Project>
-      <Name>AppXamarin</Name>
+    <ProjectReference Include="..\Prova\Prova.csproj">
+      <Project>{F355A0BA-CA4A-471E-98EE-C60B824079C9}</Project>
+      <Name>Prova</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
